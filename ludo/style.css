@@ -1,0 +1,422 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	list-style:none;
+}
+
+
+header{
+	background-color:rgb(104, 143, 221);
+	
+}
+
+
+header nav {
+    height:70px;
+    max-width: 1920px;
+	margin:0 auto;
+    display: flex;
+	justify-content:space-around;
+	align-items:center;		
+    position: relative;
+	
+	
+}
+
+
+
+
+
+
+header nav img{
+    
+    width:65px;
+  
+    
+
+}
+
+header nav  ul {
+	
+    color:black;
+    display:flex;
+    column-gap:70px;
+    justify-content:space-between ;
+    align-items:center;    
+    }
+
+    header nav  ul li a{
+        padding:10px 20px;
+        transition: 0.5s;
+    }
+   
+    header nav  ul li a:hover {
+        background-color: rgb(198, 189, 108);
+        border-radius: 7px;
+        
+    }
+
+
+
+
+
+
+
+    header nav .left i {
+
+        padding:2px 10px;
+     /* column-gap: 125px; */
+     
+
+    }
+
+
+    header nav .left input{
+        padding:8px 12px;
+        border-radius: 8px;
+        
+    }
+
+
+    header nav .left .fa-solid{
+        position: absolute;
+        left: 1350px;
+        top: 25px;
+    }
+
+
+
+                           
+.banner-container css starts from here/
+
+
+.banner-container{
+	height: 500px;
+	width: 100%;
+    /* border: 1vh solid red; */
+    
+	
+
+}
+.banner-container .banner-row{
+	height: 100%;
+	max-width: 100%;
+	display: flex;
+    align-items: center;
+    /* border: 1vh solid red; */
+    box-shadow: 20px 20px 80px;
+	
+	
+}
+.banner-container .banner-row .banner-content{
+    height: 600px;
+    width: 100%;
+	
+	/* width: 92vh; */
+	display: flex;
+    flex-direction: column;
+    row-gap: 7vh;
+	padding-left: 19vh;
+    padding-bottom: 80px;
+    
+
+}
+
+.banner-container .banner-row .banner-content a:hover{
+    background-color: red;
+    color: black;
+}
+
+.banner-container .banner-row .banner-content .top h2{
+	color: rgb(0, 0, 0);
+    font-size: 7vh;
+    font-family: arial, helvetica sans-serif;
+
+}
+.banner-container .banner-row .banner-content .center p{
+	color: rgb(0, 0, 0);
+    font-size: 3vh;
+    font-family: arial, helvetica sans-serif;
+
+}
+.banner-container .banner-row .banner-content .bottom a{
+	color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 3vh;
+    font-family: arial, helvetica sans-serif;
+    padding: 1.5vh 3vh;
+    border-radius: 2vh;
+  
+}
+
+
+/* section12 css satrts from here*/
+
+    
+main{
+
+    background-color: transparent;
+    
+}
+
+main .banner-container .banner-row .banner-content{
+    /* border: 2px solid black; */
+    height: 400px;
+    /* padding-left: 500px; */
+    padding-right: 800px;
+    padding-top: 50px;
+}
+
+
+
+main .banner-container{
+   display: flex;
+    background-image: url(121.jpg);
+    height: 670px;
+    margin: 0 auto;
+    max-width: 1920px;
+    
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+   
+    /* padding-right: 500px; */
+}
+.banner-container .banner-row{
+    margin: 0 auto;
+    height: 400px;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+h1 {
+    /* font-size:60px; */
+    color:rgba(0, 0, 0, 0.897);
+    padding-left: 35px;
+}
+h5{
+    font-size: 50px;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+   
+}
+h1{
+    font-size: 30px;
+}
+.banner-container .banner-row a{
+    color: rgb(219, 219, 219);
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: rgb(49, 69, 102);
+    border-radius: 8px;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+/* section1 css satrts from here */
+.services-container1{
+	/* height: 122vh; */
+	width: 100%;
+    background-color: rgb(32 4 63);
+	
+}
+
+
+.services-container1 .services-row1{
+	
+	max-width: 100%;
+    padding: 11VH 19VH;
+
+	
+}
+.services-container1 .services-row1 .inner-services1{
+	display: flex;
+    justify-content: center;
+    column-gap: 16vh;
+    align-items: center;
+
+	
+}
+
+.services-container1 .services-row1 .inner-services1 .left{
+	display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+	
+}
+
+.services-container1 .services-row1 .inner-services1 .left .top h3{
+	color: whitesmoke;
+    font-size: 6vh;
+    font-family: arial, helvetica sans-serif;
+
+	
+}
+.services-container1 .services-row1 .inner-services1 .left .center p{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+
+	
+}
+.services-container1 .services-row1 .inner-services1 .left .center1 p{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+
+	
+}
+.services-container1 .services-row1 .inner-services1 .left .bottom a{
+	color: whitesmoke;
+    
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+   
+ 
+
+
+	
+}
+
+.services-container1 .services-row1 .inner-services1 .right img{
+    width:500px ;
+}
+/* section2 css satrts from here */
+.services-container2{
+	/* height: 122vh; */
+	width: 100%;
+    background-color: rgb(32 4 63);
+	
+}
+
+
+.services-container2 .services-row2{
+	
+	max-width: 100%;
+    padding: 11VH 19VH;
+
+	
+}
+.services-container2 .services-row2 .inner-services2{
+	display: flex;
+    justify-content: center;
+    column-gap: 16vh;
+    align-items: center;
+
+	
+}
+.services-container2 .services-row2 .inner-services2 .right{
+	display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+	
+}
+
+
+.services-container2 .services-row2 .inner-services2 .right .top h3{
+	color: whitesmoke;
+    font-size: 6vh;
+    font-family: arial, helvetica sans-serif;
+
+	
+}
+.services-container2 .services-row2 .inner-services2 .right .top1 p{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+
+	
+}
+
+.services-container2 .services-row2 .inner-services2 .right .center h5{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+    background-color:rgb(83 43 140);
+    padding: 1.5vh 2vh;
+    border-radius: 1vh;
+}
+.services-container2 .services-row2 .inner-services2 .right .center1 p{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+   
+}
+.services-container2 .services-row2 .inner-services2 .right .center2 h5{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+   
+}
+.services-container2 .services-row2 .inner-services2 .right .bottom1 h5{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+   
+}
+.services-container2 .services-row2 .inner-services2 .right .bottom h5{
+	color: whitesmoke;
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+   
+}
+
+.services-container2 .services-row2 .inner-services2 .left img{
+    width: 350px;
+}
+
+/* footer css starts here */
+
+footer{
+    width: 100%;
+    background-color: whitesmoke;
+	
+}
+
+footer nav{
+    max-width: 100%;
+    padding: 11VH 19VH;
+}
+
+footer nav .container{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25px;
+
+ 
+
+}
+footer nav .container .left{
+    display: flex;
+    flex-direction: column;
+   
+    row-gap: 2vh;
+    
+   
+
+}
+footer nav .container .left h5{
+    color: rgb(32 4 63);
+    font-size: 2.5vh;
+    font-family: arial, helvetica sans-serif;
+
+}
+footer nav .container .left ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.5vh;
+
+}
+
+footer nav .container .left ul li{
+    color:  rgb(32 4 63);
+    font-size: 18PX;
+    font-family: arial, helvetica sans-serif;
+
+}
